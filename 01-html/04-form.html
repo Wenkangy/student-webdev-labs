@@ -1,16 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Exercise 04 - Form</title>
-  </head>
-  <body>
-    <main>
-      <form action="/submit">
-        <!-- Add your code here -->
-      </form>
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Exercise 04 - Form</title>
+</head>
+
+<body>
+  <main>
+    <form action="/submit">
+      <!-- Add your code here -->
+      <h1>Form</h1>
+      <div>
+        <label for="userName">Name:</label>
+        <input type="text" id="userName" name="userName" placeholder="Full Name" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" placeholder="name@pdx.edu" />
+      </div>
+      <br />
+      <fieldset>
+        <legend>Favorite Character:</legend>
+        <div>
+          <input type="radio" id="spongeBob" name="character" value="SpongeBob">
+          <label for="spongeBob">SpongeBob</label>
+        </div>
+        <div>
+          <input type="radio" id="sandy" name="character" value="Sandy">
+          <label for="sandy">Sandy</label>
+        </div>
+        <div>
+          <input type="radio" id="Patrick" name="character" value="Patrick">
+          <label for="patrick">Patrick</label>
+        </div>
+
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Are you a fan of the show?:</legend>
+        <div>
+          <input type="checkbox" id="Answer_1" name="Answer" value="episondes">
+          <label for="Answer_1">Yes, I have watched all episodes!</label>
+        </div>
+        <div>
+          <input type="checkbox" id="Answer_2" name="Answer" value="memes">
+          <label for="Answer_2">Yes, it`s got the best memes.</label>
+        </div>
+      </fieldset>
+      <br />
+      <div>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+      </div>
+    </form>
+  </main>
+</body>
+
 </html>
