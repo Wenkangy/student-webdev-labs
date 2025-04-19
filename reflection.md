@@ -12,9 +12,15 @@ For the table, I wasn’t sure how to make the borders look similar to the examp
 
 Overall, these small challenges helped reinforce some of the concepts  learn from the lecture and to experience html for the first time.
 
+#### Week 3
+
+I understand that accessibility is about ensuring that everyone, regardless of their abilities, can use and interact with digital content without issues. In a form, structure plays a crucial role in usability, which is why it's essential to provide clear labels for inputs, use semantic elements like fieldset and legent, and maintain a well-organized layout. Improving accessibility often involves correctly associating labels with their corresponding inputs, fot the navigation and and the compatibility with screen readers for a more inclusive experience.
+
+
 ### Accessibility
 
 Enter your reflections on this section here.
+
 
 ### CSS
 
