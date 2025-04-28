@@ -13,9 +13,36 @@
 li[class] {
   color: var(--red);
 }
+#cat {
+  color: var(--teal);
+}
+li[class$="g"] {
+  color: var(--darkmagenta);
+}
+li[class$="donkey"] {
+  color: var(--royalblue);
+}
+li[class="parrot"] {
+  color: var(--green);
+}
+li[class~="cat"] {
+  color: var(--royalblue);
+}
 
 /* Use descendant, child, and sibling selectors for the second part */
 
 section li {
   color: var(--green);
+}
+
+.list-food li {
+  color: var(--green);
+}
+
+.first ~ li {
+  color: var(--darkmagenta);
+}
+
+.second + li {
+  color: var(--royalblue);
 }
