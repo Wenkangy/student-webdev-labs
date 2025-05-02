@@ -24,4 +24,6 @@ Enter your reflections on this section here.
 
 ### CSS
 
-Enter your reflections on this section here.
+#### Week 5
+
+The CSS lab was quite challenging. The concepts of child selectors, descendant selectors, and attribute selectors are still confusing to grasp, although they're really helpful when applying CSS to different elements in HTML.The positioning exercise was the most difficult and took me more time to figure out. At the beginning, I wasn't sure how to control the different movements until I removed the margins and used positioning properties (top and left set to 0) to properly align the elements. 
