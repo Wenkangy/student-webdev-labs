@@ -27,3 +27,8 @@ The CSS lab was quite challenging. The concepts of child selectors, descendant s
 ### week 5
 
 The labs for Flexbox, CSS Grid, and Bootstrap were incredibly helpful in renforcing my understanding of CSS. These tools are powerful for creating layouts and significantly simplify working with CSS. Flexbox and Grid felt straightforward, but Bootstrap was a bit more complex. However, once I got the hang of it, Bootstrap turned out to be easier to use than Flexbox and Grid. The key challenge with Bootstrap is remembering the syntax since there’s quite a lot to keep track of.
+
+
+### week 6 week 7
+
+The JavaScript labs proved to be quite challenging, particularly when working with DOM manipulation. The syntax for accessing and modifying DOM elements required careful attention to detail. While traversing the Document Object Model, I had to be precise with my selectors and method calls. The experience taught me the importance of understanding both the hierarchical structure of HTML documents and the JavaScript methods used to interact with them. After getting through the DOM challenge, working with fetching data from APIs felt much more straightforward. I just had to figure out how to make the API calls and then work with the data. I also tried out Bootstrap to style my elements inade of css it was pretty cool seeing how I could add those classes right in my JavaScript code.
