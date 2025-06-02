@@ -1,10 +1,10 @@
-## Reflection Document
+# Reflection Document
 
-### HTML
+## HTML
 
 Enter your reflections on this section here.
 
-#### Week 2
+### Week 2
 
 This week, the HTML exercises were mostly straightforward. The trickiest parts were working with tables and forms, as they required more structuring.
 
@@ -28,7 +28,10 @@ The CSS lab was quite challenging. The concepts of child selectors, descendant s
 
 The labs for Flexbox, CSS Grid, and Bootstrap were incredibly helpful in renforcing my understanding of CSS. These tools are powerful for creating layouts and significantly simplify working with CSS. Flexbox and Grid felt straightforward, but Bootstrap was a bit more complex. However, once I got the hang of it, Bootstrap turned out to be easier to use than Flexbox and Grid. The key challenge with Bootstrap is remembering the syntax since there’s quite a lot to keep track of.
 
-
 ### week 6 week 7
 
 The JavaScript labs proved to be quite challenging, particularly when working with DOM manipulation. The syntax for accessing and modifying DOM elements required careful attention to detail. While traversing the Document Object Model, I had to be precise with my selectors and method calls. The experience taught me the importance of understanding both the hierarchical structure of HTML documents and the JavaScript methods used to interact with them. After getting through the DOM challenge, working with fetching data from APIs felt much more straightforward. I just had to figure out how to make the API calls and then work with the data. I also tried out Bootstrap to style my elements inade of css it was pretty cool seeing how I could add those classes right in my JavaScript code.
+
+### week 8
+
+This week's lab exercises proved to be quite challenging, particularly working with data retrieval and manipulation. The transition between JavaScript and jQuery approaches for fetching and displaying data required different syntaxes and methodologies. While  JavaScript uses fetch() with .then() chains, jQuery employs .ajax(). The DOM manipulation portions was an interesting contrasts between js and jquery . JavaScript uses more verbose but it is straightforward with createElement() and appendChild() methods versus jQuery which use chainable methods and simplified syntax. Despite the initial hurdles, working through these exercises helped my understanding of both approaches. jQuery makes coding easier by cutting down the amount of code needed for basic tasks. When you want to select an element and add a click event in regular JavaScript, you need to write document.querySelector('#element').addEventListener('click', handler). But with jQuery, you can do the same thing by simply writing $('#element').click(handler).
